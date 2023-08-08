@@ -39,9 +39,9 @@ class Var(object):
         )
 
     DATABASE_URL = str(environ.get('DATABASE_URL','mongodb+srv://trumbot:trumbot@cluster0.cfkaeno.mongodb.net/?retryWrites=true&w=majority'))
-    UPDATES_CHANNEL = str(environ.get('UPDATES_CHANNEL', "aredirect"))
+    UPDATES_CHANNEL = str(environ.get('UPDATES_CHANNEL',"The_silent_teams"))
     PAGE_LINK = environ.get('PAGE_LINK', None)
-    OWNER_ID = int(environ.get('OWNER_ID', '777000'))
+    OWNER_ID = int(environ.get('OWNER_ID', '921365334'))
     SESSION_NAME = str(environ.get('SESSION_NAME', 'F2L'))
     FORCE_UPDATES_CHANNEL = environ.get('FORCE_UPDATES_CHANNEL', False)
     FORCE_UPDATES_CHANNEL = True if str(FORCE_UPDATES_CHANNEL).lower() == "true" and UPDATES_CHANNEL != 'aredirect' else False
