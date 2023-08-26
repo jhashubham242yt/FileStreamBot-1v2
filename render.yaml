@@ -4,8 +4,8 @@ services:
     name: shubham
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python3 -m Adarsh
-    repo: https://github.com/jhashubham242yt/WD_Filestreambot.git      
+    startCommand: python3 -m WebStreamer
+    repo: https://github.com/jhashubham242yt/FileStreamBot-1v2.git      
     branch: main
     envVars:
       - key: BOT_TOKEN 
